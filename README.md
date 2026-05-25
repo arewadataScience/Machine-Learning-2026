@@ -78,8 +78,6 @@ Students should be comfortable reading Python code. No prior ML or deep learning
 | 11 | Neural Networks | [📊 Slides](slides/Week_13_NeuralNetworks.pptx) | [💻 Lab 11](labs/Lab_11_NeuralNetworks.ipynb) | Perceptron, Keras Sequential API, Dropout, BatchNorm |
 | 12 | Unsupervised Learning | [📊 Slides](slides/Week_14_UnsupervisedLearning.pptx) | [💻 Lab 12](labs/Lab_12_UnsupervisedLearning.ipynb) | k-Means, elbow method, silhouette score, DBSCAN, GMMs |
 
-> **⚠️ Note on Week 7:** Slides for regularization and logistic regression are not yet in this repository. The lab notebook is complete and self-contained. Suggested reading: Géron Ch. 4, sections on Ridge, Lasso, and Logistic Regression.
-
 ---
 
 ## Lab Notebooks
