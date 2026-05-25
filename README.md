@@ -1,176 +1,246 @@
-# ArewaDS — Programming for AI & Machine Learning
+<div align="center">
 
-> **Free, open-access online course. Part of the [ArewaDataScience](https://arewadatascience.github.io) initiative.**  
-> Every session is on **Zoom** — open to everyone, no applications needed.  
-> Slides and video recordings are shared after each session.
+# 🤖 Introduction to Machine Learning
+### A Summer School Course
+
+**Based on:** *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* — Aurélien Géron  
+**Instructor:** Ibrahim Said Ahmad, PhD · University of Wisconsin–Stevens Point
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3+-orange.svg)](https://scikit-learn.org/)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
+
+</div>
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
-- [About the Course](#about-the-course)
-- [How It Works](#how-it-works)
-- [Tools & Setup](#tools--setup)
-- [Learning Outcomes](#learning-outcomes)
+- [About This Course](#about-this-course)
+- [Key Features](#key-features)
+- [Prerequisites](#prerequisites)
+- [Course Structure](#course-structure)
 - [Weekly Schedule](#weekly-schedule)
-- [Resources](#resources)
-- [Community & Contact](#community--contact)
+- [Lab Notebooks](#lab-notebooks)
+- [Getting Started](#getting-started)
+- [Recommended Resources](#recommended-resources)
+- [Instructor](#instructor)
 
 ---
 
-## About the Course
+## About This Course
 
-This course introduces the principles and practical skills needed to implement and evaluate fundamental machine learning algorithms in Python. Following **Aurélien Géron's *Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow* (3rd Edition)** (Chapters 1–9), you will gain hands-on experience building models, processing data, and understanding the computational reasoning behind AI systems.
+This is a 12-week intensive summer school on Machine Learning, designed for students with some Python experience. Each session is 2 hours: **1 hour of lecture** followed by **1 hour of hands-on lab** in Google Colab.
 
-The course is offered **completely free** as part of the **ArewaDataScience Fellowship** initiative, open to anyone who wants to join — no formal enrollment required.
-
-| Detail | Info |
-|--------|------|
-| 📅 Format | Live Zoom sessions |
-| 💰 Cost | Free |
-| 📚 Primary Text | Géron, *Hands-On ML with Scikit-Learn & TensorFlow*, 3rd Ed. |
-| 🔗 Materials | Slides & recordings added after every session |
-| 🌍 Open to | Everyone |
+The course takes a practical, code-first approach — every concept is immediately reinforced with working scikit-learn code. By the end, students can build, evaluate, and reason about a wide range of ML models.
 
 ---
 
-## How It Works
+## Key Features
 
-1. **Join the Zoom link** shared via our community channels before each session.
-2. **Follow along** with the slides (uploaded here after each class).
-3. **Watch the recording** if you missed a live session — all recordings are linked in the schedule below.
-4. **Complete the labs and assignments** at your own pace.
-5. **Ask questions** and connect with other learners via Discord.
+- 📚 **12 lecture decks** — covers the full supervised + unsupervised ML landscape
+- 💻 **12 Colab-ready lab notebooks** — Guided → Fill-in-the-blank → Challenge structure
+- 🔬 **Real datasets** — MNIST, California Housing, Iris, Breast Cancer, and more
+- 🧪 **Consistent pedagogy** — every lab has the same 3-part format for predictable pacing
+- 📖 **Textbook-aligned** — all slides reference Géron's *Hands-On ML* (3rd ed.)
 
 ---
 
-## Tools & Setup
+## Prerequisites
 
-Make sure you have the following installed before the first session:
+| Skill | Level Required |
+|---|---|
+| Python | Some experience (loops, functions, lists) |
+| Math | Basic algebra; no calculus required |
+| Statistics | Mean, variance, correlation |
+| Machine Learning | None — this is the starting point |
 
-- Python 3
-- VS Code or JupyterLab
-- NumPy, Pandas, Matplotlib, Scikit-Learn, seaborn
+Students should be comfortable reading Python code. No prior ML or deep learning experience is assumed.
 
-```bash
-# Quick install
-pip install numpy pandas matplotlib scikit-learn seaborn jupyterlab
+---
+
+## Course Structure
+
 ```
-
-📺 **[Watch the environment setup guide →](#)** *(added after Session 1)*
-
----
-
-## Learning Outcomes
-
-By the end of this course, you will be able to:
-
-| # | Outcome |
-|---|---------|
-| CLO 1 | Explain fundamental ML concepts, terminology, and categories and their relevance to AI |
-| CLO 2 | Implement data preprocessing, feature engineering, and complete ML workflows using Python |
-| CLO 3 | Apply classical ML algorithms (regression, classification, clustering, SVMs, ensembles) |
-| CLO 4 | Interpret model outputs, visualizations, and feature importances |
-| CLO 5 | Evaluate models using appropriate metrics (accuracy, F1, cross-validation, etc.) |
-| CLO 6 | Implement design strategies to promote ethical and responsible AI |
+summer-school-ml/
+├── slides/
+│   ├── Week_1_Week_2_Ch1.pptx          # Intro to ML
+│   ├── Week_3_Week_4_Ch2.pptx          # End-to-End ML Project
+│   ├── week_5-1_Classification.pptx
+│   ├── week_6-1_Classification_2.pptx
+│   ├── Week_7_Training_Models.pptx
+│   ├── week_10_1_SVM_Week10_Part1.pptx
+│   ├── week_10_2_SVM_Week10_Part2.pptx
+│   ├── Week_11_DecisionTrees.pptx
+│   ├── Week_12_EnsembleLearning.pptx
+│   ├── Week_13_NeuralNetworks.pptx
+│   ├── Week_14_Ch7.pptx                # Dimensionality Reduction (bonus)
+│   └── Week_14_UnsupervisedLearning.pptx
+├── labs/
+│   ├── Lab_01_Python_Pandas_Warmup.ipynb
+│   ├── Lab_02_California_Housing_EDA.ipynb
+│   ├── Lab_03_Preprocessing_Pipelines.ipynb
+│   ├── Lab_04_Binary_Classification_MNIST.ipynb
+│   ├── Lab_05_Multiclass_Error_Analysis.ipynb
+│   ├── Lab_06_Training_Models_GradientDescent.ipynb
+│   ├── Lab_07_Regularization_LogisticRegression.ipynb
+│   ├── Lab_08_SVM.ipynb
+│   ├── Lab_09_DecisionTrees.ipynb
+│   ├── Lab_10_EnsembleLearning.ipynb
+│   ├── Lab_11_NeuralNetworks.ipynb
+│   └── Lab_12_UnsupervisedLearning.ipynb
+└── README.md
+```
 
 ---
 
 ## Weekly Schedule
 
-> 🎥 **Recordings** and 📑 **Slides** are linked after each session.
+**Format:** 2 hours/week · 1hr lecture + 1hr lab · 12 weeks
 
-### Stage 1 — The ML Landscape & Foundations
+| Week | Topic | Slides | Lab | Key Concepts |
+|:---:|---|:---:|:---:|---|
+| 1 | Introduction to ML | [📊 Slides](slides/Week_1_Week_2_Ch1.pptx) | [💻 Lab 01](labs/Lab_01_Python_Pandas_Warmup.ipynb) | ML types, the ML landscape, Python/NumPy/Pandas |
+| 2 | End-to-End ML Project — EDA | [📊 Slides](slides/Week_3_Week_4_Ch2.pptx) | [💻 Lab 02](labs/Lab_02_California_Housing_EDA.ipynb) | Problem framing, data exploration, geographic visualization |
+| 3 | Data Preprocessing & Pipelines | [📊 Slides](slides/Week_3_Week_4_Ch2.pptx) | [💻 Lab 03](labs/Lab_03_Preprocessing_Pipelines.ipynb) | Imputation, scaling, `Pipeline`, `ColumnTransformer` |
+| 4 | Binary Classification | [📊 Slides](slides/week_5-1_Classification.pptx) | [💻 Lab 04](labs/Lab_04_Binary_Classification_MNIST.ipynb) | SGD classifier, precision, recall, F1, ROC/AUC |
+| 5 | Multiclass Classification & Error Analysis | [📊 Slides](slides/week_6-1_Classification_2.pptx) | [💻 Lab 05](labs/Lab_05_Multiclass_Error_Analysis.ipynb) | OvR, OvO, confusion matrix heatmap, error profiling |
+| 6 | Training Models — Linear Regression & GD | [📊 Slides](slides/Week_7_Training_Models.pptx) | [💻 Lab 06](labs/Lab_06_Training_Models_GradientDescent.ipynb) | Normal equation, batch/SGD/mini-batch gradient descent |
+| 7 | Regularization & Logistic Regression | *(see note below)* | [💻 Lab 07](labs/Lab_07_Regularization_LogisticRegression.ipynb) | Ridge, Lasso, Elastic Net, logistic regression, decision boundary |
+| 8 | Support Vector Machines | [📊 Slides](slides/week_10_1_SVM_Week10_Part1.pptx) · [Part 2](slides/week_10_2_SVM_Week10_Part2.pptx) | [💻 Lab 08](labs/Lab_08_SVM.ipynb) | Max margin, kernel trick, RBF/polynomial kernels, SVR |
+| 9 | Decision Trees | [📊 Slides](slides/Week_11_DecisionTrees.pptx) | [💻 Lab 09](labs/Lab_09_DecisionTrees.ipynb) | CART, Gini impurity, depth regularization, feature importance |
+| 10 | Ensemble Learning & Random Forests | [📊 Slides](slides/Week_12_EnsembleLearning.pptx) | [💻 Lab 10](labs/Lab_10_EnsembleLearning.ipynb) | Bagging, voting, AdaBoost, Gradient Boosting, Random Forests |
+| 11 | Neural Networks | [📊 Slides](slides/Week_13_NeuralNetworks.pptx) | [💻 Lab 11](labs/Lab_11_NeuralNetworks.ipynb) | Perceptron, Keras Sequential API, Dropout, BatchNorm |
+| 12 | Unsupervised Learning | [📊 Slides](slides/Week_14_UnsupervisedLearning.pptx) | [💻 Lab 12](labs/Lab_12_UnsupervisedLearning.ipynb) | k-Means, elbow method, silhouette score, DBSCAN, GMMs |
 
-| Week | Chapter | Key Topics | Lab / Assignment | Slides | Recording |
-|------|---------|-----------|-----------------|--------|-----------|
-| 1 | Ch. 1 – The ML Landscape | Introduction to ML, types of ML, real-world applications, environment setup | **Lab 1:** Environment setup + "Hello ML World" (toy dataset) | 📑 Slides | 🎥 Recording |
-| 2 | Ch. 1 (cont.) | Key terminology, model vs. algorithm, supervised vs. unsupervised, data representation | **Exercise:** Explore Iris dataset; visualize decision boundaries | 📑 Slides | 🎥 Recording |
-
----
-
-### Stage 2 — End-to-End ML Projects & Data Preparation
-
-| Week | Chapter | Key Topics | Lab / Assignment | Slides | Recording |
-|------|---------|-----------|-----------------|--------|-----------|
-| 3 | Ch. 2 – End-to-End ML Project | The ML pipeline, loading data, train/test splits, basic model training | **Lab 2:** End-to-end project with Boston/housing dataset | 📑 Slides | 🎥 Recording |
-| 4 | Ch. 2 (cont.) | Data cleaning, EDA, missing values, Pandas, correlation matrices | **Mini Project 1:** Custom EDA report with visualizations | 📑 Slides | 🎥 Recording |
-
----
-
-### Stage 3 — Classification
-
-| Week | Chapter | Key Topics | Lab / Assignment | Slides | Recording |
-|------|---------|-----------|-----------------|--------|-----------|
-| 5 | Ch. 3 – Classification | Binary vs. multiclass, logistic regression, k-NN, confusion matrix, precision/recall/F1 | **Lab 3:** Build a classifier for handwritten digits | 📑 Slides | 🎥 Recording |
-| 6 | Ch. 3 (cont.) | k-fold cross-validation, bias-variance tradeoff, TF-IDF for text | **Assignment 1:** Classify spam emails using TF-IDF features | 📑 Slides | 🎥 Recording |
+> **⚠️ Note on Week 7:** Slides for regularization and logistic regression are not yet in this repository. The lab notebook is complete and self-contained. Suggested reading: Géron Ch. 4, sections on Ridge, Lasso, and Logistic Regression.
 
 ---
 
-### Stage 4 — Training Models
+## Lab Notebooks
 
-| Week | Chapter | Key Topics | Lab / Assignment | Slides | Recording |
-|------|---------|-----------|-----------------|--------|-----------|
-| 7 | Ch. 4 – Training Models | Linear regression, gradient descent, from-scratch vs. Scikit-Learn | **Lab 4:** Compare SGD vs. Normal Equation solutions | 📑 Slides | 🎥 Recording |
-| 8 | Ch. 4 (cont.) | Polynomial regression, overfitting/underfitting, Ridge & Lasso regularization | **Mid-term Assessment:** Concept quiz + short coding test | 📑 Slides | 🎥 Recording |
+Every lab follows the same structure to make pacing predictable:
 
----
+| Section | Duration | Description |
+|---|:---:|---|
+| **Part A — Guided** | ~20 min | Pre-filled code — run cells and observe outputs carefully |
+| **Part B — Fill in the Blank** | ~25 min | Skeleton code with `???` placeholders to complete |
+| **Part C — Challenge** | ~15 min | Open-ended extension problems for fast finishers |
 
-### Stage 5 — Advanced Algorithms
+All notebooks are designed for **Google Colab** — no local setup required. Click any badge below to open directly:
 
-| Week | Chapter | Key Topics | Lab / Assignment | Slides | Recording |
-|------|---------|-----------|-----------------|--------|-----------|
-| 9 | Ch. 5 – Support Vector Machines | Max-margin, kernel trick, SVM classification & regression, hyperparameter tuning | **Lab 5:** Tune kernel and regularization parameters | 📑 Slides | 🎥 Recording |
-| 10 | Ch. 6 – Decision Trees | Tree construction, information gain, feature importance, tree vs. linear models | **Lab 6:** Tree vs. Linear model on same dataset | 📑 Slides | 🎥 Recording |
-| 11 | Ch. 7 – Ensemble Methods | Bagging, Random Forests, Boosting, bias-variance improvement | **Mini Project 2:** Compare ensemble methods on tabular data | 📑 Slides | 🎥 Recording |
+| Lab | Topic | Open in Colab |
+|:---:|---|:---:|
+| 01 | Python, NumPy & Pandas Warmup | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/labs/Lab_01_Python_Pandas_Warmup.ipynb) |
+| 02 | California Housing EDA | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/labs/Lab_02_California_Housing_EDA.ipynb) |
+| 03 | Preprocessing & Pipelines | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/labs/Lab_03_Preprocessing_Pipelines.ipynb) |
+| 04 | Binary Classification on MNIST | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/labs/Lab_04_Binary_Classification_MNIST.ipynb) |
+| 05 | Multiclass Classification & Error Analysis | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/labs/Lab_05_Multiclass_Error_Analysis.ipynb) |
+| 06 | Training Models & Gradient Descent | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/labs/Lab_06_Training_Models_GradientDescent.ipynb) |
+| 07 | Regularization & Logistic Regression | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/labs/Lab_07_Regularization_LogisticRegression.ipynb) |
+| 08 | Support Vector Machines | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/labs/Lab_08_SVM.ipynb) |
+| 09 | Decision Trees | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/labs/Lab_09_DecisionTrees.ipynb) |
+| 10 | Ensemble Learning & Random Forests | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/labs/Lab_10_EnsembleLearning.ipynb) |
+| 11 | Neural Networks with Keras | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/labs/Lab_11_NeuralNetworks.ipynb) |
+| 12 | Unsupervised Learning — Clustering | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/labs/Lab_12_UnsupervisedLearning.ipynb) |
 
----
-
-### Stage 6 — Dimensionality Reduction & Unsupervised Learning
-
-| Week | Chapter | Key Topics | Lab / Assignment | Slides | Recording |
-|------|---------|-----------|-----------------|--------|-----------|
-| 12 | Ch. 8 – Dimensionality Reduction | PCA, manifold learning, visualizing high-dimensional data | **Lab 7:** PCA on image data (e.g., faces) | 📑 Slides | 🎥 Recording |
-| 13 | Ch. 9 – Unsupervised Learning | k-means, DBSCAN, hierarchical clustering, embeddings | **Lab 8:** Customer segmentation or document clustering | 📑 Slides | 🎥 Recording |
-
----
-
-### Stage 7 — Integration, Projects & Ethics
-
-| Week | Chapter | Key Topics | Lab / Assignment | Slides | Recording |
-|------|---------|-----------|-----------------|--------|-----------|
-| 14 | Review & Integration | Complete ML pipelines, model comparison & selection, metric-based justification | **Assignment 2:** Build a full end-to-end ML pipeline | 📑 Slides | 🎥 Recording |
-| 15 | Project Work | Capstone: apply the pipeline to a chosen dataset; debug, document, peer feedback | **Final Project:** Dataset + report + presentation | 📑 Slides | 🎥 Recording |
-| 16 | Presentations & Wrap-Up | Student presentations, ethical AI, identifying bias, responsible AI strategies | **Final Demo & Peer Review** | 📑 Slides | 🎥 Recording |
+> **Replace `YOUR_USERNAME/YOUR_REPO`** in the Colab badge URLs above with your actual GitHub username and repository name.
 
 ---
 
-## Resources
+## Getting Started
+
+### Option 1: Google Colab (Recommended)
+
+No setup needed. Click any "Open in Colab" badge above. All required packages (scikit-learn, TensorFlow/Keras, matplotlib, pandas) are pre-installed in Colab.
+
+> 💡 For Lab 11 (Neural Networks), go to **Runtime → Change runtime type → T4 GPU** for faster training.
+
+### Option 2: Local Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+cd YOUR_REPO
+
+# Create a virtual environment
+python -m venv ml-env
+source ml-env/bin/activate       # macOS/Linux
+ml-env\Scripts\activate          # Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch Jupyter
+jupyter notebook labs/
+```
+
+**`requirements.txt`:**
+```
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+scikit-learn>=1.3
+tensorflow>=2.13
+jupyter
+```
+
+---
+
+## Recommended Resources
 
 ### Primary Textbook
-- 📘 Aurélien Géron, *Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow*, 3rd Edition — [O'Reilly](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/) | [GitHub Notebooks](https://github.com/ageron/handson-ml3)
+- 📘 [**Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow** (3rd ed.) — Aurélien Géron](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/)
+  All slides in this course are based on this book.
 
-### Supplementary
-- 📗 [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) — Jake VanderPlas (free online)
-- 📙 [Python for Data Analysis](https://wesmckinney.com/book/) — Wes McKinney (free online)
-- 🔢 [100 NumPy Exercises](https://github.com/arewadataScience/ArewaDS-Machine-Learning/blob/main/100_numpy_exercise.md)
-- 🐼 [Pandas Exercises](https://github.com/guipsamora/pandas_exercises)
+### Supplementary Reading
+- 📗 [Python for Data Analysis — Wes McKinney](https://wesmckinney.com/book/) *(free online)*
+- 📙 [Python Data Science Handbook — Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/) *(free online)*
 
----
+### Video Series
+- 🎥 [YouTube series on Hands-On ML book chapters](https://www.youtube.com/playlist?list=PLr3-oFRsHRaZwmVUPMvnDUZV-j2zaK5zU)
 
-## Community & Contact
-
-| Platform | Link |
-|---------|------|
-| 🌐 Website | [arewadatascience.github.io](https://arewadatascience.github.io) |
-| 💬 Discord | [Join our Discord](https://discord.gg/gg6ntVcgVf) |
-| 📧 Email | arewadatascience@gmail.com |
-| 🐦 Twitter/X | [@arewadatascience](https://twitter.com/arewadatascience) |
-| 💼 LinkedIn | [ArewaDataScience](https://www.linkedin.com/company/arewadatascience) |
-| 📺 YouTube | [ArewaDS Academy](https://www.youtube.com/@arewadatascienceacademy7195/videos) |
-| ✈️ Telegram | [Join Telegram](https://t.me/+vGZvQdggp1A4NzNk) |
+### Practice & Competitions
+- 🏆 [Kaggle](https://www.kaggle.com/) — competitions and free courses
+- 💡 [Google ML Crash Course](https://developers.google.com/machine-learning/crash-course)
 
 ---
 
-> **ArewaDataScience** — Building Africa's data science talent, one session at a time.  
-> All materials are free and open. Share freely. 🌍
+## Instructor
+
+**Ibrahim Said Ahmad, PhD**  
+Assistant Professor, Department of Computing and New Media Technologies  
+University of Wisconsin–Stevens Point
+
+| | |
+|---|---|
+| 🔬 Research | NLP, Computational Social Science, Low-Resource Languages |
+| 🏆 Awards | Best Paper ACII 2025 · Best Resource Paper ACL 2025 · SemEval Best Task Award ACL 2025 |
+| 💰 Grants | $400k+ from Google Research, Lacuna Fund, Oracle |
+| 🌍 Initiatives | Co-founder [HausaNLP](https://github.com/hausaNLP) · Co-founder [ArewaDataScience](https://arewadatascience.github.io) |
+
+---
+
+## Contributing
+
+Found a bug in a notebook? Have a suggestion for a challenge problem? Pull requests are welcome.
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b fix/lab-03-typo`)
+3. Commit your changes
+4. Open a pull request
+
+---
+
+## License
+
+This course material is released under the [MIT License](LICENSE). The slides are based on content from *Hands-On Machine Learning* by Aurélien Géron (O'Reilly Media) — please respect the original work's copyright when sharing.
+
+---
+
+<div align="center">
+
+Made with ❤️ for students learning ML · Summer 2025
+
+</div>
