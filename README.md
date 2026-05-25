@@ -4,8 +4,7 @@
 ### A Summer School Course
 
 **Based on:** *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* — Aurélien Géron  
-**Instructors:** nsin–Stevens Point
-
+**Instructors:** 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3+-orange.svg)](https://scikit-learn.org/)
@@ -207,21 +206,6 @@ jupyter
 
 ---
 
-## Instructor
-
-**Ibrahim Said Ahmad, PhD**  
-Assistant Professor, Department of Computing and New Media Technologies  
-University of Wisconsin–Stevens Point
-
-| | |
-|---|---|
-| 🔬 Research | NLP, Computational Social Science, Low-Resource Languages |
-| 🏆 Awards | Best Paper ACII 2025 · Best Resource Paper ACL 2025 · SemEval Best Task Award ACL 2025 |
-| 💰 Grants | $400k+ from Google Research, Lacuna Fund, Oracle |
-| 🌍 Initiatives | Co-founder [HausaNLP](https://github.com/hausaNLP) · Co-founder [ArewaDataScience](https://arewadatascience.github.io) |
-
----
-
 ## Contributing
 
 Found a bug in a notebook? Have a suggestion for a challenge problem? Pull requests are welcome.
@@ -241,6 +225,6 @@ This course material is released under the [MIT License](LICENSE). The slides ar
 
 <div align="center">
 
-Made with ❤️ for students learning ML · Summer 2025
+Made with ❤️ by Arewa Datascience Academy
 
 </div>
