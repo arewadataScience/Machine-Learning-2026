@@ -1,7 +1,7 @@
 <div align="center">
 
 # 🤖 Introduction to Machine Learning
-### A Summer School Course
+### Arewa DataScience Academy Course
 
 **Based on:** *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* — Aurélien Géron  
 **Instructors:** 
@@ -65,18 +65,18 @@ Students should be comfortable reading Python code. No prior ML or deep learning
 
 | Week | Topic | Slides | Lab | Key Concepts |
 |:---:|---|:---:|:---:|---|
-| 1 | Introduction to ML | [📊 Slides](https://docs.google.com/presentation/d/1AecN5SZoLfdnId_KkcVqav489pvxznsX/edit?usp=sharing&ouid=112104248066415459244&rtpof=true&sd=true) | [💻 Lab 01](https://drive.google.com/file/d/17-4mOPWJd14dhgcw8jUU5yr_2CMAynd5/view?usp=sharing) | ML types, the ML landscape, Python/NumPy/Pandas |
-| 2 | End-to-End ML Project — EDA | [📊 Slides](#) | [💻 Lab 02](#) | Problem framing, data exploration, geographic visualization |
-| 3 | Data Preprocessing & Pipelines | [📊 Slides](#) | [💻 Lab 03](#) | Imputation, scaling, `Pipeline`, `ColumnTransformer` |
-| 4 | Binary Classification | [📊 Slides](#) | [💻 Lab 04](#) | SGD classifier, precision, recall, F1, ROC/AUC |
-| 5 | Multiclass Classification & Error Analysis | [📊 Slides](#) | [💻 Lab 05](#) | OvR, OvO, confusion matrix heatmap, error profiling |
-| 6 | Training Models — Linear Regression & GD | [📊 Slides](#) | [💻 Lab 06](#) | Normal equation, batch/SGD/mini-batch gradient descent |
-| 7 | Regularization & Logistic Regression | [📊 Slides](#) | [💻 Lab 07](#) | Ridge, Lasso, Elastic Net, logistic regression, decision boundary |
-| 8 | Support Vector Machines | [📊 Slides](#) · [Part 2](#) | [💻 Lab 08](#) | Max margin, kernel trick, RBF/polynomial kernels, SVR |
-| 9 | Decision Trees | [📊 Slides](#) | [💻 Lab 09](#) | CART, Gini impurity, depth regularization, feature importance |
-| 10 | Ensemble Learning & Random Forests | [📊 Slides](#) | [💻 Lab 10](#) | Bagging, voting, AdaBoost, Gradient Boosting, Random Forests |
-| 11 | Neural Networks | [📊 Slides](#) | [💻 Lab 11](#) | Perceptron, Keras Sequential API, Dropout, BatchNorm |
-| 12 | Unsupervised Learning | [📊 Slides](#) | [💻 Lab 12](#) | k-Means, elbow method, silhouette score, DBSCAN, GMMs |
+| 1 | Introduction to ML | [📊 Slides](https://docs.google.com/presentation/d/1AecN5SZoLfdnId_KkcVqav489pvxznsX/edit?usp=sharing&ouid=112104248066415459244&rtpof=true&sd=true) | [💻 Lab 01](https://drive.google.com/file/d/17-4mOPWJd14dhgcw8jUU5yr_2CMAynd5/view?usp=sharing) |[🎥 Recording](#)  |  ML types, the ML landscape, Python/NumPy/Pandas |
+| 2 | End-to-End ML Project — EDA | [📊 Slides](#) | [💻 Lab 02](#) | [🎥 Recording](#)  | Problem framing, data exploration, geographic visualization |
+| 3 | Data Preprocessing & Pipelines | [📊 Slides](#) | [💻 Lab 03](#) | [🎥 Recording](#)  | Imputation, scaling, `Pipeline`, `ColumnTransformer` |
+| 4 | Binary Classification | [📊 Slides](#) | [💻 Lab 04](#) | [🎥 Recording](#)  | SGD classifier, precision, recall, F1, ROC/AUC |
+| 5 | Multiclass Classification & Error Analysis | [📊 Slides](#) | [💻 Lab 05](#) | [🎥 Recording](#)  | OvR, OvO, confusion matrix heatmap, error profiling |
+| 6 | Training Models — Linear Regression & GD | [📊 Slides](#) | [💻 Lab 06](#) | [🎥 Recording](#)  | Normal equation, batch/SGD/mini-batch gradient descent |
+| 7 | Regularization & Logistic Regression | [📊 Slides](#) | [💻 Lab 07](#) | [🎥 Recording](#)  | Ridge, Lasso, Elastic Net, logistic regression, decision boundary |
+| 8 | Support Vector Machines | [📊 Slides](#) · [Part 2](#) | [💻 Lab 08](#) | [🎥 Recording](#)  | Max margin, kernel trick, RBF/polynomial kernels, SVR |
+| 9 | Decision Trees | [📊 Slides](#) | [💻 Lab 09](#) | [🎥 Recording](#)  | CART, Gini impurity, depth regularization, feature importance |
+| 10 | Ensemble Learning & Random Forests | [📊 Slides](#) | [💻 Lab 10](#) | [🎥 Recording](#)  | Bagging, voting, AdaBoost, Gradient Boosting, Random Forests |
+| 11 | Neural Networks | [📊 Slides](#) | [💻 Lab 11](#) | [🎥 Recording](#)  | Perceptron, Keras Sequential API, Dropout, BatchNorm |
+| 12 | Unsupervised Learning | [📊 Slides](#) | [💻 Lab 12](#) | [🎥 Recording](#)  | k-Means, elbow method, silhouette score, DBSCAN, GMMs |
 
 ---
 
