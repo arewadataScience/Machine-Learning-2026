@@ -59,41 +59,6 @@ Students should be comfortable reading Python code. No prior ML or deep learning
 
 ---
 
-## Course Structure
-
-```
-summer-school-ml/
-├── slides/
-│   ├── Week_1_Week_2_Ch1.pptx          # Intro to ML
-│   ├── Week_3_Week_4_Ch2.pptx          # End-to-End ML Project
-│   ├── week_5-1_Classification.pptx
-│   ├── week_6-1_Classification_2.pptx
-│   ├── Week_7_Training_Models.pptx
-│   ├── week_10_1_SVM_Week10_Part1.pptx
-│   ├── week_10_2_SVM_Week10_Part2.pptx
-│   ├── Week_11_DecisionTrees.pptx
-│   ├── Week_12_EnsembleLearning.pptx
-│   ├── Week_13_NeuralNetworks.pptx
-│   ├── Week_14_Ch7.pptx                # Dimensionality Reduction (bonus)
-│   └── Week_14_UnsupervisedLearning.pptx
-├── labs/
-│   ├── Lab_01_Python_Pandas_Warmup.ipynb
-│   ├── Lab_02_California_Housing_EDA.ipynb
-│   ├── Lab_03_Preprocessing_Pipelines.ipynb
-│   ├── Lab_04_Binary_Classification_MNIST.ipynb
-│   ├── Lab_05_Multiclass_Error_Analysis.ipynb
-│   ├── Lab_06_Training_Models_GradientDescent.ipynb
-│   ├── Lab_07_Regularization_LogisticRegression.ipynb
-│   ├── Lab_08_SVM.ipynb
-│   ├── Lab_09_DecisionTrees.ipynb
-│   ├── Lab_10_EnsembleLearning.ipynb
-│   ├── Lab_11_NeuralNetworks.ipynb
-│   └── Lab_12_UnsupervisedLearning.ipynb
-└── README.md
-```
-
----
-
 ## Weekly Schedule
 
 **Format:** 2 hours/week · 1hr lecture + 1hr lab · 12 weeks
