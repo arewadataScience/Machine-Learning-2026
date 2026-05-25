@@ -65,7 +65,7 @@ Students should be comfortable reading Python code. No prior ML or deep learning
 
 | Week | Topic | Slides | Lab | Key Concepts |
 |:---:|---|:---:|:---:|---|
-| 1 | Introduction to ML | [📊 Slides](slides/Week_1_Week_2_Ch1.pptx) | [💻 Lab 01](labs/Lab_01_Python_Pandas_Warmup.ipynb) | ML types, the ML landscape, Python/NumPy/Pandas |
+| 1 | Introduction to ML | [📊 Slides](https://docs.google.com/presentation/d/1AecN5SZoLfdnId_KkcVqav489pvxznsX/edit?usp=sharing&ouid=112104248066415459244&rtpof=true&sd=true) | [💻 Lab 01](https://drive.google.com/file/d/17-4mOPWJd14dhgcw8jUU5yr_2CMAynd5/view?usp=sharing) | ML types, the ML landscape, Python/NumPy/Pandas |
 | 2 | End-to-End ML Project — EDA | [📊 Slides](slides/Week_3_Week_4_Ch2.pptx) | [💻 Lab 02](labs/Lab_02_California_Housing_EDA.ipynb) | Problem framing, data exploration, geographic visualization |
 | 3 | Data Preprocessing & Pipelines | [📊 Slides](slides/Week_3_Week_4_Ch2.pptx) | [💻 Lab 03](labs/Lab_03_Preprocessing_Pipelines.ipynb) | Imputation, scaling, `Pipeline`, `ColumnTransformer` |
 | 4 | Binary Classification | [📊 Slides](slides/week_5-1_Classification.pptx) | [💻 Lab 04](labs/Lab_04_Binary_Classification_MNIST.ipynb) | SGD classifier, precision, recall, F1, ROC/AUC |
