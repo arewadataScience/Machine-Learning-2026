@@ -66,17 +66,17 @@ Students should be comfortable reading Python code. No prior ML or deep learning
 | Week | Topic | Slides | Lab | Key Concepts |
 |:---:|---|:---:|:---:|---|
 | 1 | Introduction to ML | [📊 Slides](https://docs.google.com/presentation/d/1AecN5SZoLfdnId_KkcVqav489pvxznsX/edit?usp=sharing&ouid=112104248066415459244&rtpof=true&sd=true) | [💻 Lab 01](https://drive.google.com/file/d/17-4mOPWJd14dhgcw8jUU5yr_2CMAynd5/view?usp=sharing) | ML types, the ML landscape, Python/NumPy/Pandas |
-| 2 | End-to-End ML Project — EDA | [📊 Slides](slides/Week_3_Week_4_Ch2.pptx) | [💻 Lab 02](labs/Lab_02_California_Housing_EDA.ipynb) | Problem framing, data exploration, geographic visualization |
-| 3 | Data Preprocessing & Pipelines | [📊 Slides](slides/Week_3_Week_4_Ch2.pptx) | [💻 Lab 03](labs/Lab_03_Preprocessing_Pipelines.ipynb) | Imputation, scaling, `Pipeline`, `ColumnTransformer` |
-| 4 | Binary Classification | [📊 Slides](slides/week_5-1_Classification.pptx) | [💻 Lab 04](labs/Lab_04_Binary_Classification_MNIST.ipynb) | SGD classifier, precision, recall, F1, ROC/AUC |
-| 5 | Multiclass Classification & Error Analysis | [📊 Slides](slides/week_6-1_Classification_2.pptx) | [💻 Lab 05](labs/Lab_05_Multiclass_Error_Analysis.ipynb) | OvR, OvO, confusion matrix heatmap, error profiling |
-| 6 | Training Models — Linear Regression & GD | [📊 Slides](slides/Week_7_Training_Models.pptx) | [💻 Lab 06](labs/Lab_06_Training_Models_GradientDescent.ipynb) | Normal equation, batch/SGD/mini-batch gradient descent |
-| 7 | Regularization & Logistic Regression | *(see note below)* | [💻 Lab 07](labs/Lab_07_Regularization_LogisticRegression.ipynb) | Ridge, Lasso, Elastic Net, logistic regression, decision boundary |
-| 8 | Support Vector Machines | [📊 Slides](slides/week_10_1_SVM_Week10_Part1.pptx) · [Part 2](slides/week_10_2_SVM_Week10_Part2.pptx) | [💻 Lab 08](labs/Lab_08_SVM.ipynb) | Max margin, kernel trick, RBF/polynomial kernels, SVR |
-| 9 | Decision Trees | [📊 Slides](slides/Week_11_DecisionTrees.pptx) | [💻 Lab 09](labs/Lab_09_DecisionTrees.ipynb) | CART, Gini impurity, depth regularization, feature importance |
-| 10 | Ensemble Learning & Random Forests | [📊 Slides](slides/Week_12_EnsembleLearning.pptx) | [💻 Lab 10](labs/Lab_10_EnsembleLearning.ipynb) | Bagging, voting, AdaBoost, Gradient Boosting, Random Forests |
-| 11 | Neural Networks | [📊 Slides](slides/Week_13_NeuralNetworks.pptx) | [💻 Lab 11](labs/Lab_11_NeuralNetworks.ipynb) | Perceptron, Keras Sequential API, Dropout, BatchNorm |
-| 12 | Unsupervised Learning | [📊 Slides](slides/Week_14_UnsupervisedLearning.pptx) | [💻 Lab 12](labs/Lab_12_UnsupervisedLearning.ipynb) | k-Means, elbow method, silhouette score, DBSCAN, GMMs |
+| 2 | End-to-End ML Project — EDA | [📊 Slides](#) | [💻 Lab 02](#) | Problem framing, data exploration, geographic visualization |
+| 3 | Data Preprocessing & Pipelines | [📊 Slides](#) | [💻 Lab 03](#) | Imputation, scaling, `Pipeline`, `ColumnTransformer` |
+| 4 | Binary Classification | [📊 Slides](#) | [💻 Lab 04](#) | SGD classifier, precision, recall, F1, ROC/AUC |
+| 5 | Multiclass Classification & Error Analysis | [📊 Slides](#) | [💻 Lab 05](#) | OvR, OvO, confusion matrix heatmap, error profiling |
+| 6 | Training Models — Linear Regression & GD | [📊 Slides](#) | [💻 Lab 06](#) | Normal equation, batch/SGD/mini-batch gradient descent |
+| 7 | Regularization & Logistic Regression | [📊 Slides](#) | [💻 Lab 07](#) | Ridge, Lasso, Elastic Net, logistic regression, decision boundary |
+| 8 | Support Vector Machines | [📊 Slides](#) · [Part 2](#) | [💻 Lab 08](#) | Max margin, kernel trick, RBF/polynomial kernels, SVR |
+| 9 | Decision Trees | [📊 Slides](#) | [💻 Lab 09](#) | CART, Gini impurity, depth regularization, feature importance |
+| 10 | Ensemble Learning & Random Forests | [📊 Slides](#) | [💻 Lab 10](#) | Bagging, voting, AdaBoost, Gradient Boosting, Random Forests |
+| 11 | Neural Networks | [📊 Slides](#) | [💻 Lab 11](#) | Perceptron, Keras Sequential API, Dropout, BatchNorm |
+| 12 | Unsupervised Learning | [📊 Slides](#) | [💻 Lab 12](#) | k-Means, elbow method, silhouette score, DBSCAN, GMMs |
 
 ---
 
@@ -94,20 +94,18 @@ All notebooks are designed for **Google Colab** — no local setup required. Cli
 
 | Lab | Topic | Open in Colab |
 |:---:|---|:---:|
-| 01 | Python, NumPy & Pandas Warmup | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/labs/Lab_01_Python_Pandas_Warmup.ipynb) |
-| 02 | California Housing EDA | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/labs/Lab_02_California_Housing_EDA.ipynb) |
-| 03 | Preprocessing & Pipelines | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/labs/Lab_03_Preprocessing_Pipelines.ipynb) |
-| 04 | Binary Classification on MNIST | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/labs/Lab_04_Binary_Classification_MNIST.ipynb) |
-| 05 | Multiclass Classification & Error Analysis | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/labs/Lab_05_Multiclass_Error_Analysis.ipynb) |
-| 06 | Training Models & Gradient Descent | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/labs/Lab_06_Training_Models_GradientDescent.ipynb) |
-| 07 | Regularization & Logistic Regression | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/labs/Lab_07_Regularization_LogisticRegression.ipynb) |
-| 08 | Support Vector Machines | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/labs/Lab_08_SVM.ipynb) |
-| 09 | Decision Trees | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/labs/Lab_09_DecisionTrees.ipynb) |
-| 10 | Ensemble Learning & Random Forests | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/labs/Lab_10_EnsembleLearning.ipynb) |
-| 11 | Neural Networks with Keras | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/labs/Lab_11_NeuralNetworks.ipynb) |
-| 12 | Unsupervised Learning — Clustering | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/labs/Lab_12_UnsupervisedLearning.ipynb) |
-
-> **Replace `YOUR_USERNAME/YOUR_REPO`** in the Colab badge URLs above with your actual GitHub username and repository name.
+| 01 | Python, NumPy & Pandas Warmup | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) |
+| 02 | California Housing EDA | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) |
+| 03 | Preprocessing & Pipelines | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) |
+| 04 | Binary Classification on MNIST | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) |
+| 05 | Multiclass Classification & Error Analysis | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) |
+| 06 | Training Models & Gradient Descent | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) |
+| 07 | Regularization & Logistic Regression | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) |
+| 08 | Support Vector Machines | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) |
+| 09 | Decision Trees | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) |
+| 10 | Ensemble Learning & Random Forests | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) |
+| 11 | Neural Networks with Keras | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) |
+| 12 | Unsupervised Learning — Clustering | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](#) |
 
 ---
 
