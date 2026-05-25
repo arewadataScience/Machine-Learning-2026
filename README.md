@@ -63,8 +63,8 @@ Students should be comfortable reading Python code. No prior ML or deep learning
 
 **Format:** 2 hours/week · 1hr lecture + 1hr lab · 12 weeks
 
-| Week | Topic | Slides | Lab | Key Concepts |
-|:---:|---|:---:|:---:|---|
+| Week | Topic | Slides | Lab | Recording | Key Concepts |
+|:---:|---|:---:|:---:|:---:|---|
 | 1 | Introduction to ML | [📊 Slides](https://docs.google.com/presentation/d/1AecN5SZoLfdnId_KkcVqav489pvxznsX/edit?usp=sharing&ouid=112104248066415459244&rtpof=true&sd=true) | [💻 Lab 01](https://drive.google.com/file/d/17-4mOPWJd14dhgcw8jUU5yr_2CMAynd5/view?usp=sharing) |[🎥 Recording](#)  |  ML types, the ML landscape, Python/NumPy/Pandas |
 | 2 | End-to-End ML Project — EDA | [📊 Slides](#) | [💻 Lab 02](#) | [🎥 Recording](#)  | Problem framing, data exploration, geographic visualization |
 | 3 | Data Preprocessing & Pipelines | [📊 Slides](#) | [💻 Lab 03](#) | [🎥 Recording](#)  | Imputation, scaling, `Pipeline`, `ColumnTransformer` |
