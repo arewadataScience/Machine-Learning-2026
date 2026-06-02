@@ -63,7 +63,7 @@ Students should be comfortable reading Python code. No prior ML or deep learning
 
 **Format:** 2 hours/week · 1hr lecture + 1hr lab · 12 weeks
 
-### 🛠 Setup and Installation
+### Setup and Installation
 
 In this initial part, we’ll guide you through the essential tools needed for data science and machine learning, including installing VSCode, Jupyter Notebooks, Python virtual environments, Git for version control, GitHub for collaboration, Markdown, and creating a Medium blog post.
 
@@ -79,7 +79,7 @@ In this initial part, we’ll guide you through the essential tools needed for d
 | Customizing GitHub Profile    | [Customizing Profile](https://docs.google.com/presentation/d/1-CtWlgh7c1j5cBVKZiFlaMCYP3O_KcqwYDm6dbkiFdc/edit#slide=id.p)                                                                                                                                                                                                                                                                                | [Recording](https://www.youtube.com/watch?v=oXEUbZ9m3SE)                                                                                                                   | [Lukman]()                                                    |
 | Google Colab                  | [Google Colab](#)                                                                                                                                                                                                                                                                                                                                                                                         | [Recording](https://youtu.be/3P5PgSzHPmI?si=G5PJlkd0CrlVfLiN)                                                                                                              | [Dr. Idris](https://www.linkedin.com/in/abumafrim/)           |
 
-### 📝 Assignments: Setup and Installation
+### Assignments: Setup and Installation
 
 | Assignment Name             | Link to Assignment                                                                                                                               |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -88,7 +88,7 @@ In this initial part, we’ll guide you through the essential tools needed for d
 | GitHub Profile              | [Customize your Proile](#)                                                                                                                       |
 
 
-### Curricullum
+### Week Schedule and Resources
 
 | Week | Topic | Slides | Lab | Recording | Key Concepts | Instructor |
 |:---:|---|:---:|:---:|:---:|:---:|---|
