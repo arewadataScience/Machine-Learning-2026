@@ -88,7 +88,7 @@ In this initial part, we’ll guide you through the essential tools needed for d
 | GitHub Profile              | [Customize your Proile](#)                                                                                                                       |
 
 
-### Week Schedule and Resources
+### Plan and Resources
 
 | Week | Topic | Slides | Lab | Recording | Key Concepts | Instructor |
 |:---:|---|:---:|:---:|:---:|:---:|---|
