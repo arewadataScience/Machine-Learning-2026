@@ -71,12 +71,11 @@ Students should be comfortable reading Python code. No prior ML or deep learning
 | 4 | Binary Classification | [📊 Slides](#) | [💻 Lab 04](#) | [🎥 Recording](#)  | SGD classifier, precision, recall, F1, ROC/AUC | Dr. I. S. Ahmad |
 | 5 | Multiclass Classification & Error Analysis | [📊 Slides](#) | [💻 Lab 05](#) | [🎥 Recording](#)  | OvR, OvO, confusion matrix heatmap, error profiling | Dr. I. S. Ahmad |
 | 6 | Training Models — Linear Regression & GD | [📊 Slides](#) | [💻 Lab 06](#) | [🎥 Recording](#)  | Normal equation, batch/SGD/mini-batch gradient descent | Dr. I. S. Ahmad |
-| 7 | Regularization & Logistic Regression | [📊 Slides](#) | [💻 Lab 07](#) | [🎥 Recording](#)  | Ridge, Lasso, Elastic Net, logistic regression, decision boundary | Dr. I. S. Ahmad |
-| 8 | Support Vector Machines | [📊 Slides](#) · [Part 2](#) | [💻 Lab 08](#) | [🎥 Recording](#)  | Max margin, kernel trick, RBF/polynomial kernels, SVR | Dr. I. S. Ahmad |
-| 9 | Decision Trees | [📊 Slides](#) | [💻 Lab 09](#) | [🎥 Recording](#)  | CART, Gini impurity, depth regularization, feature importance | Dr. I. S. Ahmad |
-| 10 | Ensemble Learning & Random Forests | [📊 Slides](#) | [💻 Lab 10](#) | [🎥 Recording](#)  | Bagging, voting, AdaBoost, Gradient Boosting, Random Forests | Dr. I. S. Ahmad |
-| 11 | Neural Networks | [📊 Slides](#) | [💻 Lab 11](#) | [🎥 Recording](#)  | Perceptron, Keras Sequential API, Dropout, BatchNorm | Dr. I. S. Ahmad |
-| 12 | Unsupervised Learning | [📊 Slides](#) | [💻 Lab 12](#) | [🎥 Recording](#)  | k-Means, elbow method, silhouette score, DBSCAN, GMMs | Dr. I. S. Ahmad |
+| 7 | Support Vector Machines | [📊 Slides](#) · [Part 2](#) | [💻 Lab 08](#) | [🎥 Recording](#)  | Max margin, kernel trick, RBF/polynomial kernels, SVR | Dr. I. S. Ahmad |
+| 8 | Decision Trees | [📊 Slides](#) | [💻 Lab 09](#) | [🎥 Recording](#)  | CART, Gini impurity, depth regularization, feature importance | Dr. I. S. Ahmad |
+| 9 | Ensemble Learning & Random Forests | [📊 Slides](#) | [💻 Lab 10](#) | [🎥 Recording](#)  | Bagging, voting, AdaBoost, Gradient Boosting, Random Forests | Dr. I. S. Ahmad |
+| 10 | Neural Networks | [📊 Slides](#) | [💻 Lab 11](#) | [🎥 Recording](#)  | Perceptron, Keras Sequential API, Dropout, BatchNorm | Dr. I. S. Ahmad |
+| 11 | Unsupervised Learning | [📊 Slides](#) | [💻 Lab 12](#) | [🎥 Recording](#)  | k-Means, elbow method, silhouette score, DBSCAN, GMMs | Dr. I. S. Ahmad |
 
 ---
 
